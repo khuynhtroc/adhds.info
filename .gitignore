@@ -1,9 +1,32 @@
-# Ruby Gems
+# OS X
+.DS_Store
+
+# Jekyll build
+/_site/
+.jekyll-metadata
+#Gemfile.lock
+
+# webstorm
+.idea/
+
+# others
+*.swp
+package-lock.json
+
+# site build
 *.gem
-
-# Design Files
-*.psd
-*.ai
-
-# IntelliJ
-.idea
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+vendor
+Gemfile.lock
+node_modules
