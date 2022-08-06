@@ -12,11 +12,9 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
-    <link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/assets/built/screen.css" />
-    <link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/assets/built/screen.edited.css" />
-    <link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/assets/built/syntax.css" />
-    <!-- Canonical -->
-    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}/{{page.url}}">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/built/syntax.css" />
     <!-- highlight.js -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
     <style>.hljs { background: none; }</style>
@@ -83,7 +81,7 @@
                 {% if site.logo %}
                     <img class="subscribe-overlay-logo" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}" />
                 {% endif %}
-                <h4 class="subscribe-overlay-title">Subscribe to {{ site.title }}</h4>
+                <h1 class="subscribe-overlay-title">Subscribe to {{ site.title }}</h1>
                 <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
                 {% include subscribe-form.html placeholder="youremail@example.com" %}
             </div>
